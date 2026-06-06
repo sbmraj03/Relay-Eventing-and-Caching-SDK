@@ -8,8 +8,8 @@ import (
 
 	kafka "github.com/segmentio/kafka-go"
 
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/internal/retry"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/consumer"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/internal/retry"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/consumer"
 )
 
 // --- test doubles ------------------------------------------------------------

@@ -17,11 +17,11 @@ import (
 	"github.com/redis/go-redis/v9"
 	kafka "github.com/segmentio/kafka-go"
 
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/internal/retry"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/internal/testutil"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/cache"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/consumer"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/producer"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/internal/retry"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/internal/testutil"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/cache"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/consumer"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/producer"
 )
 
 // TestEndToEnd_PublishConsumeAndDLQ is the single comprehensive E2E test:

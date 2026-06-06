@@ -8,9 +8,9 @@ import (
 
 	kafka "github.com/segmentio/kafka-go"
 
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/internal/retry"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/breaker"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/producer"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/internal/retry"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/breaker"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/producer"
 )
 
 // fakeWriter records what was written and returns a configurable error sequence.

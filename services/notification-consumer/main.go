@@ -17,10 +17,10 @@ import (
 	kafka "github.com/segmentio/kafka-go"
 	"github.com/redis/go-redis/v9"
 
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/internal/retry"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/cache"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/consumer"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/telemetry"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/internal/retry"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/cache"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/consumer"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/telemetry"
 )
 
 type userPrefs struct {

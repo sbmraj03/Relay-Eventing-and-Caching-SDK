@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/breaker"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/breaker"
 )
 
 var errBoom = errors.New("boom")

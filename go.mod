@@ -1,4 +1,4 @@
-module github.com/sbmraj03/Relay---Eventing-Caching-SDK
+module github.com/sbmraj03/Relay-Eventing-and-Caching-SDK
 
 go 1.26.4
 

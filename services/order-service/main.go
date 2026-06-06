@@ -16,8 +16,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.opentelemetry.io/otel"
 
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/producer"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/telemetry"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/producer"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/telemetry"
 )
 
 func main() {

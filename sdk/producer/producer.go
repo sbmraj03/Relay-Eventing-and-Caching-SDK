@@ -13,9 +13,9 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/internal/retry"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/breaker"
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/telemetry"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/internal/retry"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/breaker"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/telemetry"
 )
 
 // Message is what callers pass to Publish.

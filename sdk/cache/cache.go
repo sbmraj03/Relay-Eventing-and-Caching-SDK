@@ -11,7 +11,7 @@ import (
 	"github.com/redis/go-redis/v9"
 	"golang.org/x/sync/singleflight"
 
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/telemetry"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/telemetry"
 )
 
 // ErrNotFound is returned by GetOrLoad when the loader returns no data.

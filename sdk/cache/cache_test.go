@@ -11,7 +11,7 @@ import (
 	"github.com/alicebob/miniredis/v2"
 	"github.com/redis/go-redis/v9"
 
-	"github.com/sbmraj03/Relay---Eventing-Caching-SDK/sdk/cache"
+	"github.com/sbmraj03/Relay-Eventing-and-Caching-SDK/sdk/cache"
 )
 
 // newTestCache spins up an in-memory Redis server and returns a Cache backed by it.
