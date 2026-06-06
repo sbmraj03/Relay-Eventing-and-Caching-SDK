@@ -1,0 +1,26 @@
+version: "2"
+
+linters:
+  enable:
+    - errcheck
+    - govet
+    - staticcheck
+    - ineffassign
+    - unused
+    - revive
+  settings:
+    revive:
+      rules:
+        # Don't require doc comments on every exported symbol.
+        - name: exported
+          disabled: true
+        # package main files don't need a package comment.
+        - name: package-comments
+          disabled: true
+
+issues:
+  exclude-rules:
+    - path: .*_test\.go
+      linters: [errcheck]
+    - path: (integration|e2e)/
+      linters: [errcheck]

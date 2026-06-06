@@ -1,0 +1,32 @@
+# Go binaries
+/bin/
+*.exe
+*.test
+*.out
+
+# Go build cache (don't commit the module cache)
+vendor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+*.env.local
+
+# Claude Code IDE settings
+.claude/
+
+# Test coverage
+coverage.out
+coverage.html
+
+# Compiled service binaries (produced by go build)
+/order-service
+/notification-consumer
