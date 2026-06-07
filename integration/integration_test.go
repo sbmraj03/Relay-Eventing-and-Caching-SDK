@@ -31,6 +31,7 @@ import (
 //  3. Publish a poison message (non-JSON), verify it ends up in the DLQ.
 func TestEndToEnd_PublishConsumeAndDLQ(t *testing.T) {
 	broker := testutil.StartKafka(t)
+	testutil.EnsureTopics(t, broker, "orders", "orders.dlq")
 	redisAddr := testutil.StartRedis(t)
 
 	const (
