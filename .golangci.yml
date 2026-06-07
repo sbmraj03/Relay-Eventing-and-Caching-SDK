@@ -19,8 +19,9 @@ linters:
           disabled: true
 
 issues:
-  exclude-rules:
-    - path: .*_test\.go
-      linters: [errcheck]
-    - path: (integration|e2e)/
-      linters: [errcheck]
+  exclusions:
+    rules:
+      - path: .*_test\.go
+        linters: [errcheck]
+      - path: (integration|e2e)/
+        linters: [errcheck]
