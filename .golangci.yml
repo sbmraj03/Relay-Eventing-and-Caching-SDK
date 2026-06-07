@@ -11,14 +11,10 @@ linters:
   settings:
     revive:
       rules:
-        # Don't require doc comments on every exported symbol.
         - name: exported
           disabled: true
-        # package main files don't need a package comment.
         - name: package-comments
           disabled: true
-
-issues:
   exclusions:
     rules:
       - path: .*_test\.go
